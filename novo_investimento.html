@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+    <html lang="pt-BR">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./bootstrap-5.3.0/css/bootstrap-grid.min.css"/>
+        <link rel="stylesheet" href="./bootstrap-5.3.0/css/bootstrap-reboot.min.css"/>
+        <link rel="stylesheet" href="./bootstrap-5.3.0/css/bootstrap-utilities.min.css"/>
+        <link rel="stylesheet" href="./bootstrap-5.3.0/css/bootstrap.min.css"/>
+        <script src="./bootstrap-5.3.0/js/bootstrap.min.js"></script>
+        <script src="./bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="Css3.css"/>
+        
+    </head>
+    <body>
+        <div class="inicio2">
+        
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand logo-cls">UE5 Funding</a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="cadastro.html">Cadastro</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="novo_investimento.html">Novos Investimentos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="meus_investimentos.html">Mostrar investimentos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="quem_somos.html">Quem somos</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    
+    
+          </div>
+
+    <center>
+      <div class="inicio">
+        <h2>Cadastre seu investimento</h2>
+        <div class="option1">
+          <form class="row g-3">
+            <div class="mb-3">
+              <label for="tipoInvestimento" class="form-label">Tipo de investimento</label>
+              <select class="form-select" id="tipoInvestimento" required="true">
+                <option value="" selected>--Selecione uma opção--</option>
+                <option value="CDBbb">CDB - BB</option>
+                <option value="CDBitau">CDB - ITAU</option>
+                <option value="CDBsantander">CDB - Santander</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="valorInvestir" class="form-label">Valor a investir: R$</label>
+              <input type="number" class="form-control" id="valorInvestir" min="1" step="0.01" required="true">
+            </div>
+
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Cadastrar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </center>
+    
+    <div class ="final">
+      <h3 class="footer">2023 © UE5 Funding - Todos os direitos Reservados</h3>
+    </div>
+
+    </body>
+    </html>

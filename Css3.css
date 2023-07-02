@@ -1,0 +1,163 @@
+:root{
+  --font-body-background-color: rgb(228, 228, 228);
+  --white-color:white;
+  --black-color: #000000;
+  --gray-color: #5c5c5c;
+  --red-color: #cc0000;
+}
+body {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--font-body-background-color);
+}
+
+.logo-cls{
+  color: var(--red-color) !important;
+}
+
+.logo-cls :hover{
+  color: var(--red-color) !important;
+}
+
+.form-check-input[type=checkbox]{
+  border-color: var(--gray-color);
+}
+
+.register-cls{
+  text-align: center;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+
+.inicio{
+  
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    margin-top: 5%;
+    background-color: var(--white-color);
+}
+
+form{
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.row{
+  margin-top: 5px;
+  padding-left: 12px;
+}
+.inicio2{
+  border: 1px solid;
+}
+.option1 {
+  text-align: center;
+  justify-content: center;
+}
+.final{
+  bottom: 0%;
+  text-align: left;
+  align-items: left;
+  position: fixed;
+  background-color: var(--gray-color);
+  min-width: 100%;
+  max-width: 100%;
+  border: 1px solid;
+}
+
+h1{
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    
+}
+
+.carousel{
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.tabela{
+  padding-top: 2rem;
+  min-width: 25%;
+  border: 1px solid var(--black-color);
+  text-align: left;
+  box-sizing: border-box;
+  background-color: var(--white-color);
+}
+
+.table{
+  width: 100%;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.texto {
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+position: relative;
+text-align: justify;
+justify-content: inherit;
+align-items: left;
+background-color: var(--white-color);
+padding-top: 5px;
+padding-bottom: 10px;
+border-radius: 4px;
+padding-top: 1rem;
+padding-left: 1rem;
+padding-right: 1rem;
+border-radius: 4px;
+}
+.header {
+background-color: var(--white-color);
+margin-top: 0%;
+padding-top: 2rem;
+
+}
+
+.footer{
+  text-align: center;
+  font-size: 0.75rem;
+  justify-content: center;
+  color: var(--white-color);
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .texto {
+    max-width: 50%;
+  }
+  .inicio{
+    max-width: 50%;
+  }
+  .carousel{
+    max-width: 50% !important;
+  }
+  
+}
+
+
+@media (max-width: 600px) {
+  .table {
+    width: 100%;
+    display: block;
+    overflow-x: auto;
+  }
+  
+  .table th,
+  .table td {
+    white-space: nowrap;
+  }
+}
